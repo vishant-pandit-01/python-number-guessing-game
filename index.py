@@ -2,8 +2,6 @@ import random
 print("🎯 Welcome to Number Guessing Game :-")
 
 Name=input("enter your name :-")
-
-
 secret_number = random.randint(1, 100)
 attempts = 0
 
@@ -19,4 +17,3 @@ while True:
         print("Congrats:-",Name, "Aapne ",attempts," Attempts m Right Number Choose kra h ")
         # print(f" congrats {Name} tumne {attempts} attempts mein sahi number guess kar liya h:") 
         break
-
